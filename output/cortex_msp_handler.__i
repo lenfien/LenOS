@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-o ".\output\cortex_msp_handler.o" --omf_browse ".\output\cortex_msp_handler.crf" --depend ".\output\cortex_msp_handler.d" "src\project\LenCar\cortex_msp_handler.c"

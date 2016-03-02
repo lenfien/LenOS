@@ -1,0 +1,868 @@
+Dependencies for Project 'stm32f103', Target 'iLib': (DO NOT MODIFY !)
+F (.\src\main.cpp)(0x51A5C3A4)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\cnf.h)(0x51A4D200)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\User\DUI.h)(0x51A5C801)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+F (.\src\test.cpp)(0x516FAD85)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\test.o" --omf_browse ".\output\test.crf" --depend ".\output\test.d")
+F (.\src\UserMain.cpp)(0x51B16509)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\usermain.o" --omf_browse ".\output\usermain.crf" --depend ".\output\usermain.d")
+I (.\src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\User\WGT.h)(0x51A5D234)
+I (.\src\LenOS\Graphic\text.h)(0x51AE7EB5)
+I (.\src\LenOS\Graphic\textbox.h)(0x51A9A5C2)
+I (.\src\LenOS\Graphic\controlPad.h)(0x51AE2A06)
+I (.\src\LenOS\User\MessageBox.h)(0x51AE2502)
+I (.\src\LenOS\Idientify\hand.h)(0x51B154EA)
+I (.\src\LenOS\LenCar\lencar.h)(0x51AE8FBF)
+F (.\src\UserMain.h)(0x51A4704C)()
+F (.\src\system\startup_stm32f10x_hd.s)(0x51B15E19)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x --list ".\list\startup_stm32f10x_hd.lst" --xref -o ".\output\startup_stm32f10x_hd.o" --depend ".\output\startup_stm32f10x_hd.d")
+F (.\src\system\isr.cpp)(0x51B151A9)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\isr.o" --omf_browse ".\output\isr.crf" --depend ".\output\isr.d")
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\cnf.h)(0x51A4D200)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+F (.\src\system\sys.cpp)(0x5158F23B)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\sys.o" --omf_browse ".\output\sys.crf" --depend ".\output\sys.d")
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\lib\base\header\cnf.h)(0x51A4D200)
+F (.\src\common\acom.s)(0x51669C88)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x --list ".\list\acom.lst" --xref -o ".\output\acom.o" --depend ".\output\acom.d")
+F (.\src\common\com.h)(0x519AF00F)()
+F (.\src\common\com.cpp)(0x51AE8B57)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\com.o" --omf_browse ".\output\com.crf" --depend ".\output\com.d")
+I (src\common\com.h)(0x519AF00F)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cmath)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+F (.\src\common\error.h)(0x514FD252)()
+F (.\src\lib\base\header\base.h)(0x51AE97F8)()
+F (.\src\lib\base\base.cpp)(0x51AE981B)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\base.o" --omf_browse ".\output\base.crf" --depend ".\output\base.d")
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+F (.\src\lib\base\header\cnf.h)(0x51A4D200)()
+F (.\src\lib\base\cnf.cpp)(0x516FF5E5)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\cnf.o" --omf_browse ".\output\cnf.crf" --depend ".\output\cnf.d")
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\cnf.h)(0x51A4D200)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+F (.\src\LenOS\led.h)(0x5160406A)()
+F (.\src\LenOS\System.h)(0x51A47A39)()
+F (.\src\LenOS\System.cpp)(0x51AEAB18)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\system.o" --omf_browse ".\output\system.crf" --depend ".\output\system.d")
+I (src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (src\LenOS\led.h)(0x5160406A)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\UserMain.h)(0x51A4704C)
+F (.\src\LenOS\Process.h)(0x51A6FFBC)()
+F (.\src\LenOS\Process.cpp)(0x51AB0AD9)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\process.o" --omf_browse ".\output\process.crf" --depend ".\output\process.d")
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\process.h)(0x51A6FFBC)
+I (src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+F (.\src\LenOS\Interrupt.h)(0x516A1AA6)()
+F (.\src\LenOS\Interrupt.cpp)(0x516A1AA6)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\interrupt.o" --omf_browse ".\output\interrupt.crf" --depend ".\output\interrupt.d")
+F (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)()
+F (.\src\LenOS\ads7843\ads7843.cpp)(0x51A5922E)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\ads7843.o" --omf_browse ".\output\ads7843.crf" --depend ".\output\ads7843.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+F (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)()
+F (.\src\LenOS\ssd1289\ssd1289.cpp)(0x516FC2D3)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\ssd1289.o" --omf_browse ".\output\ssd1289.crf" --depend ".\output\ssd1289.d")
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+F (.\src\LenOS\Touch\touch.h)(0x515F9344)()
+F (.\src\LenOS\Touch\touch.cpp)(0x51593CC3)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\touch.o" --omf_browse ".\output\touch.crf" --depend ".\output\touch.d")
+I (src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+F (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)()
+F (.\src\LenOS\Screen\screen.cpp)(0x51A9A17A)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\screen.o" --omf_browse ".\output\screen.crf" --depend ".\output\screen.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cmath)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+F (.\src\LenOS\In\In.h)(0x516F8981)()
+F (.\src\LenOS\In\In.cpp)(0x5150F86F)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\in.o" --omf_browse ".\output\in.crf" --depend ".\output\in.d")
+F (.\src\LenOS\output\Out.h)(0x51A4D4E3)()
+F (.\src\LenOS\output\Out.cpp)(0x51A4D753)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\out.o" --omf_browse ".\output\out.crf" --depend ".\output\out.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+F (.\src\LenOS\data\Vector.h)(0x51A99775)()
+F (.\src\LenOS\data\Datas.h)(0x51A47586)()
+F (.\src\LenOS\data\queue.h)(0x515E789E)()
+F (.\src\LenOS\data\string.h)(0x51A6F47C)()
+F (.\src\LenOS\data\string.cpp)(0x51A6F529)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\string.o" --omf_browse ".\output\string.crf" --depend ".\output\string.d")
+I (src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdarg)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+F (.\src\LenOS\font\font.h)(0x51A4D933)()
+F (.\src\LenOS\font\font.cpp)(0x516B7673)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\font.o" --omf_browse ".\output\font.crf" --depend ".\output\font.d")
+I (src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+F (.\src\LenOS\font\fontLib.cpp)(0x516B7232)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\fontlib.o" --omf_browse ".\output\fontlib.crf" --depend ".\output\fontlib.d")
+I (src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+F (.\src\LenOS\Graphic\Paintable.cpp)(0x51B06BDA)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\paintable.o" --omf_browse ".\output\paintable.crf" --depend ".\output\paintable.d")
+I (src\LenOS\Graphic\Paintable.h)(0x51B06BBF)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cmath)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdarg)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+F (.\src\LenOS\Graphic\Paintable.h)(0x51B06BBF)()
+F (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)()
+F (.\src\LenOS\Touchable\touchable.cpp)(0x51A70DA4)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\touchable.o" --omf_browse ".\output\touchable.crf" --depend ".\output\touchable.d")
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+F (.\src\LenOS\Graphic\Graphic.h)(0x51A9A102)()
+F (.\src\LenOS\Graphic\Graphic.cpp)(0x516FC9C8)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\graphic.o" --omf_browse ".\output\graphic.crf" --depend ".\output\graphic.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\cmath)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+F (.\src\LenOS\Color\color.h)(0x51A5C6F4)()
+F (.\src\LenOS\Color\color.cpp)(0x51594AF9)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\color.o" --omf_browse ".\output\color.crf" --depend ".\output\color.d")
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+F (.\src\LenOS\Graphic\widget.h)(0x51AB1033)()
+F (.\src\LenOS\Graphic\widget.cpp)(0x51AE2506)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\widget.o" --omf_browse ".\output\widget.crf" --depend ".\output\widget.d")
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+F (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)()
+F (.\src\LenOS\Graphic\touchWidget.cpp)(0x51A9A447)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\touchwidget.o" --omf_browse ".\output\touchwidget.crf" --depend ".\output\touchwidget.d")
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+F (.\src\LenOS\User\MessageBox.cpp)(0x51A984B9)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\messagebox.o" --omf_browse ".\output\messagebox.crf" --depend ".\output\messagebox.d")
+I (src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\Graphic\textbox.h)(0x51A9A5C2)
+I (src\LenOS\User\MessageBox.h)(0x51AE2502)
+F (.\src\LenOS\User\MessageBox.h)(0x51AE2502)()
+F (.\src\LenOS\Button\Button.h)(0x51A5C6D3)()
+F (.\src\LenOS\Button\Button.cpp)(0x51AB106D)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\button.o" --omf_browse ".\output\button.crf" --depend ".\output\button.d")
+I (src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Graphic\touchPad.h)(0x51A6CA26)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+F (.\src\LenOS\Graphic\ControlPad.h)(0x51AE2A06)()
+F (.\src\LenOS\Graphic\ControlPad.cpp)(0x51AE73AB)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\controlpad.o" --omf_browse ".\output\controlpad.crf" --depend ".\output\controlpad.d")
+I (src\LenOS\Graphic\controlPad.h)(0x51AE2A06)
+I (src\LenOS\Graphic\touchWIdget.h)(0x516FB2AC)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+F (.\src\LenOS\Graphic\text.h)(0x51AE7EB5)()
+F (.\src\LenOS\Graphic\text.cpp)(0x51AE7774)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\text.o" --omf_browse ".\output\text.crf" --depend ".\output\text.d")
+I (.\src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (src\LenOS\Graphic\text.h)(0x51AE7EB5)
+F (.\src\LenOS\Graphic\textBox.h)(0x51A9A5C2)()
+F (.\src\LenOS\Graphic\textBox.cpp)(0x51AE2AA2)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\textbox.o" --omf_browse ".\output\textbox.crf" --depend ".\output\textbox.d")
+I (src\LenOS\Graphic\textbox.h)(0x51A9A5C2)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (src\LenOS\Graphic\touchwidget.h)(0x516FB2AC)
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+F (.\src\LenOS\Graphic\Slider.h)(0x51AB0D95)()
+F (.\src\LenOS\Graphic\Slider.cpp)(0x51AB0E44)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\slider.o" --omf_browse ".\output\slider.crf" --depend ".\output\slider.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\cmath)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (src\LenOS\Graphic\Slider.h)(0x51AB0D95)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+F (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)()
+F (.\src\LenOS\Graphic\pad.cpp)(0x51B1560F)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\pad.o" --omf_browse ".\output\pad.crf" --depend ".\output\pad.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\cmath)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+F (.\src\LenOS\Graphic\touchPad.h)(0x51A6CA26)()
+F (.\src\LenOS\Graphic\touchPad.cpp)(0x51A59E1C)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\touchpad.o" --omf_browse ".\output\touchpad.crf" --depend ".\output\touchpad.d")
+I (src\LenOS\Graphic\touchPad.h)(0x51A6CA26)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+F (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)()
+F (.\src\LenOS\Graphic\window.cpp)(0x51A992CC)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\window.o" --omf_browse ".\output\window.crf" --depend ".\output\window.d")
+I (src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\common\com.h)(0x519AF00F)
+I (src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+F (.\src\LenOS\User\GUI.h)(0x51A5C809)()
+F (.\src\LenOS\User\DUI.h)(0x51A5C801)()
+F (.\src\LenOS\User\SYS.h)(0x51A5C77B)()
+F (.\src\LenOS\User\WGT.h)(0x51A5D234)()
+F (.\src\LenOS\LenCar\lenCar.h)(0x51AE8FBF)()
+F (.\src\LenOS\LenCar\lenCar.cpp)(0x51AEAADF)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\lencar.o" --omf_browse ".\output\lencar.crf" --depend ".\output\lencar.d")
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\lib\base\header\cnf.h)(0x51A4D200)
+I (src\LenOS\LenCar\lencar.h)(0x51AE8FBF)
+I (.\src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\User\WGT.h)(0x51A5D234)
+I (.\src\LenOS\Graphic\text.h)(0x51AE7EB5)
+I (.\src\LenOS\Graphic\textbox.h)(0x51A9A5C2)
+I (.\src\LenOS\Graphic\controlPad.h)(0x51AE2A06)
+I (.\src\LenOS\User\MessageBox.h)(0x51AE2502)
+I (D:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+F (.\src\project\funcGen\FuncGen.cpp)(0x519AF151)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\funcgen.o" --omf_browse ".\output\funcgen.crf" --depend ".\output\funcgen.d")
+F (.\src\project\funcGen\FuncGen.h)(0x519AF939)()
+F (.\src\LenOS\Idientify\handData.cpp)(0x51B154F6)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\handdata.o" --omf_browse ".\output\handdata.crf" --depend ".\output\handdata.d")
+I (src\LenOS\Idientify\hand.h)(0x51B154EA)
+I (.\src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\User\WGT.h)(0x51A5D234)
+I (.\src\LenOS\Graphic\text.h)(0x51AE7EB5)
+I (.\src\LenOS\Graphic\textbox.h)(0x51A9A5C2)
+I (.\src\LenOS\Graphic\controlPad.h)(0x51AE2A06)
+I (.\src\LenOS\User\MessageBox.h)(0x51AE2502)
+F (.\src\LenOS\Idientify\hand.cpp)(0x51B154E2)(--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\hand.o" --omf_browse ".\output\hand.crf" --depend ".\output\hand.d")
+I (src\LenOS\Idientify\hand.h)(0x51B154EA)
+I (.\src\LenOS\User\GUI.h)(0x51A5C809)
+I (.\src\LenOS\Graphic\graphic.h)(0x51A9A102)
+I (.\src\LenOS\data\vector.h)(0x51A99775)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdio)(0x516E81E4)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil\ARM\ARMCC\bin\..\include\cstdlib)(0x516E81E8)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+I (.\src\common\com.h)(0x519AF00F)
+I (.\src\LenOS\Screen\screen.h)(0x51A9F9C1)
+I (.\src\LenOS\color\color.h)(0x51A5C6F4)
+I (.\src\LenOS\ssd1289\ssd1289.h)(0x51AE76F1)
+I (.\src\lib\base\header\base.h)(0x51AE97F8)
+I (.\src\LenOS\data\datas.h)(0x51A47586)
+I (D:\Keil\ARM\ARMCC\bin\..\include\assert.h)(0x516E81E6)
+I (.\src\LenOS\Graphic\pad.h)(0x51ACB0C1)
+I (.\src\LenOS\Touchable\touchable.h)(0x51A59D4F)
+I (.\src\LenOS\Touch\touch.h)(0x515F9344)
+I (.\src\LenOS\ads7843\ads7843.h)(0x516A1024)
+I (.\src\LenOS\system.h)(0x51A47A39)
+I (.\src\LenOS\data\string.h)(0x51A6F47C)
+I (.\src\LenOS\data\queue.h)(0x515E789E)
+I (.\src\LenOS\process.h)(0x51A6FFBC)
+I (.\src\LenOS\Graphic\touchWidget.h)(0x516FB2AC)
+I (.\src\LenOS\Graphic\widget.h)(0x51AB1033)
+I (.\src\LenOS\Graphic\window.h)(0x51A9EA6C)
+I (.\src\LenOS\Graphic\touchpad.h)(0x51A6CA26)
+I (.\src\LenOS\font\font.h)(0x51A4D933)
+I (.\src\LenOS\Button\button.h)(0x51A5C6D3)
+I (.\src\LenOS\Graphic\slider.h)(0x51AB0D95)
+I (.\src\LenOS\Graphic\paintable.h)(0x51B06BBF)
+I (.\src\LenOS\output\out.h)(0x51A4D4E3)
+I (.\src\LenOS\User\WGT.h)(0x51A5D234)
+I (.\src\LenOS\Graphic\text.h)(0x51AE7EB5)
+I (.\src\LenOS\Graphic\textbox.h)(0x51A9A5C2)
+I (.\src\LenOS\Graphic\controlPad.h)(0x51AE2A06)
+I (.\src\LenOS\User\MessageBox.h)(0x51AE2502)
+F (.\src\LenOS\Idientify\hand.h)(0x51B154EA)()

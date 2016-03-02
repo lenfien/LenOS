@@ -1,0 +1,11 @@
+.\output\cnf_rtc.o: src\lib\cnf\source\cnf_rtc.c
+.\output\cnf_rtc.o: .\src\common\header\com_type_define.h
+.\output\cnf_rtc.o: .\src\lib\cnf\header\cnf_RTC.h
+.\output\cnf_rtc.o: .\src\lib\base\header\base_RTC.h
+.\output\cnf_rtc.o: .\src\lib\core\header\core_map.h
+.\output\cnf_rtc.o: .\src\common\header\com_bit_operation.h
+.\output\cnf_rtc.o: .\src\lib\base\header\base_RCC.h
+.\output\cnf_rtc.o: .\src\lib\core\header\core_map.h
+.\output\cnf_rtc.o: .\src\lib\base\header\base_PWR.h
+.\output\cnf_rtc.o: .\src\lib\core\header\core_map.h
+.\output\cnf_rtc.o: .\src\lib\core\header\core_NVIC.h

@@ -1,0 +1,41 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             __NOP, CODE
+    2 00000000                 THUMB
+    3 00000000                 export           _NOP
+    4 00000000         _NOP
+    5 00000000 B500            PUSH             {LR}
+    6 00000002 BF00            NOP
+    7 00000004 F85D EB04       POP              {LR}
+    8 00000008                 END
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\output
+\acom.d -o.\output\acom.o -ID:\Keil\ARM\RV31\INC -ID:\Keil\ARM\CMSIS\Include -I
+D:\Keil\ARM\Inc\ST\STM32F10x --list=.\list\acom.lst src\common\acom.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+_NOP 00000000
+
+Symbol: _NOP
+   Definitions
+      At line 4 in file src\common\acom.s
+   Uses
+      At line 3 in file src\common\acom.s
+Comment: _NOP used once
+__NOP 00000000
+
+Symbol: __NOP
+   Definitions
+      At line 1 in file src\common\acom.s
+   Uses
+      None
+Comment: __NOP unused
+2 symbols
+332 symbols in table

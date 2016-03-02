@@ -1,0 +1,13 @@
+.\output\cortex_msp_handler.o: src\project\LenCar\cortex_msp_handler.c
+.\output\cortex_msp_handler.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\cortex_msp_handler.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\cortex_msp_handler.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\output\cortex_msp_handler.o: .\src\common\com.h
+.\output\cortex_msp_handler.o: .\src\lib\base\header\base.h
+.\output\cortex_msp_handler.o: .\src\lib\base\header\cnf.h
+.\output\cortex_msp_handler.o: .\src\LenOS\ssd1289\ssd1289.h
+.\output\cortex_msp_handler.o: .\src\LenOS\color\color.h
+.\output\cortex_msp_handler.o: .\src\LenOS\data\datas.h
+.\output\cortex_msp_handler.o: .\src\LenOS\data\vector.h
+.\output\cortex_msp_handler.o: C:\Keil\ARM\ARMCC\bin\..\include\cstdio
+.\output\cortex_msp_handler.o: C:\Keil\ARM\ARMCC\bin\..\include\cstdlib

@@ -1,0 +1,12 @@
+.\output\datas.o: src\LenOS\data\Datas.cpp
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\cassert
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\assert.h
+.\output\datas.o: src\LenOS\data\Datas.h
+.\output\datas.o: src\LenOS\data\vector.h
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\cstdio
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\cstdlib
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\datas.o: .\src\common\com.h
+.\output\datas.o: .\src\LenOS\color\color.h
+.\output\datas.o: C:\Keil\ARM\ARMCC\bin\..\include\assert.h

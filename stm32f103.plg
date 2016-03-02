@@ -1,0 +1,266 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Work\Projects\Cortex-M3\STM32F103ZET6_LIB\current\STM32F103ZET6\stm32f103.uvproj
+Project File Date:  06/14/2012
+
+<h2>Output:</h2>
+Build target 'iLib'
+compiling main.c...
+compiling lenfien.c...
+compiling interruptService.c...
+compiling systemInit.c...
+assembling startup_stm32f10x_hd.s...
+compiling com_bit_operations.c...
+compiling com_functions.c...
+assembling com_advanced_functions.s...
+compiling debug.c...
+compiling debug_color.c...
+compiling base_adc.c...
+compiling base_afio.c...
+compiling base_atime.c...
+compiling base_crc.c...
+compiling base_dma.C...
+compiling base_exti.c...
+compiling base_fsmc.c...
+compiling base_gpio.c...
+compiling base_pwr.c...
+compiling base_rcc.c...
+compiling base_rtc.c...
+compiling base_spi.c...
+compiling base_usart.c...
+compiling base_dac.c...
+compiling base_bkp.c...
+compiling base_gtime.c...
+compiling base_i2c.c...
+compiling core_systick.c...
+compiling core_nvic.c...
+compiling cnf_adc.c...
+compiling cnf_atime.c...
+compiling cnf_crc.c...
+compiling cnf_dma.c...
+compiling cnf_rcc.c...
+compiling cnf_rtc.c...
+compiling cnf_usart.c...
+compiling cnf_systick.c...
+compiling cnf_dac.c...
+compiling cnf_bkp.c...
+compiling cnf_i2c.c...
+compiling led.c...
+compiling beep.c...
+compiling ds18B20_base.c...
+compiling ads7483_base.c...
+compiling ads7483_button.c...
+compiling ssd1289_base.c...
+compiling ssd1289_configure.c...
+compiling ssd1289_font.c...
+compiling ssd1289_graphic.c...
+compiling 24c02.c...
+compiling srwf-1021.c...
+compiling daConverter.c...
+compiling adConverter.c...
+compiling steerEngine.c...
+compiling exam.c...
+compiling bitMap1.c...
+compiling bitMap2.c...
+compiling font_operation.c...
+compiling font_lib_ascii_8_16.c...
+compiling font_lib_ascii_10_19.c...
+compiling font_lib_ascii_YAHEI.c...
+compiling button.c...
+compiling button_list.c...
+compiling windows.c...
+linking...
+Program Size: Code=42484 RO-data=6580 RW-data=256 ZI-data=3096  
+".\output\stm32f103.axf" - 0 Error(s), 0 Warning(s).
+Build target 'iLib'
+compiling lenfien.c...
+linking...
+Program Size: Code=42484 RO-data=6580 RW-data=256 ZI-data=3096  
+".\output\stm32f103.axf" - 0 Error(s), 0 Warning(s).
+Build target 'iLib'
+compiling lenfien.c...
+linking...
+Program Size: Code=42484 RO-data=6580 RW-data=256 ZI-data=3096  
+".\output\stm32f103.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Work\\Projects\\Cortex-M3\\STM32F103ZET6_LIB\\current\\STM32F103ZET6\\output\\stm32f103.AXF" 
+* JLink Info: Device "STM32F101ZE" selected (512 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\Work\Projects\Cortex-M3\STM32F103ZET6_LIB\current\STM32F103ZET6\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F101ZE
+VTarget = 3.261V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08000000H - 0800C0A7H
+Erase skipped!
+Load "D:\\Work\\Projects\\Cortex-M3\\STM32F103ZET6_LIB\\current\\STM32F103ZET6\\output\\stm32f103.AXF" 
+* JLink Info: Device "STM32F101ZE" selected (512 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\Work\Projects\Cortex-M3\STM32F103ZET6_LIB\current\STM32F103ZET6\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F101ZE
+VTarget = 3.261V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08000000H - 0800C0A7H
+Erase skipped!
+Load "D:\\Work\\Projects\\Cortex-M3\\STM32F103ZET6_LIB\\current\\STM32F103ZET6\\output\\stm32f103.AXF" 
+* JLink Info: Device "STM32F101ZE" selected (512 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\Work\Projects\Cortex-M3\STM32F103ZET6_LIB\current\STM32F103ZET6\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F101ZE
+VTarget = 3.261V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'iLib'
+compiling lenfien.c...
+linking...
+Program Size: Code=42488 RO-data=6580 RW-data=256 ZI-data=3096  
+".\output\stm32f103.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Work\\Projects\\Cortex-M3\\STM32F103ZET6_LIB\\current\\STM32F103ZET6\\output\\stm32f103.AXF" 
+* JLink Info: Device "STM32F101ZE" selected (512 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\Work\Projects\Cortex-M3\STM32F103ZET6_LIB\current\STM32F103ZET6\JLinkSettings.ini"
+Load "D:\\Work\\Projects\\Cortex-M3\\STM32F103ZET6_LIB\\current\\STM32F103ZET6\\output\\stm32f103.AXF" 
+* JLink Info: Device "STM32F101ZE" selected (512 KB flash, 48 KB RAM).
+Set JLink Project File to "D:\Work\Projects\Cortex-M3\STM32F103ZET6_LIB\current\STM32F103ZET6\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F101ZE
+VTarget = 3.254V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'iLib'
+compiling debug_color.c...
+linking...
+Program Size: Code=42488 RO-data=6580 RW-data=256 ZI-data=3096  
+".\output\stm32f103.axf" - 0 Error(s), 0 Warning(s).

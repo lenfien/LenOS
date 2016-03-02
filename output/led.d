@@ -1,0 +1,9 @@
+.\output\led.o: src\peripheral\devboard\source\led.c
+.\output\led.o: .\src\lib\base\header\base_rcc.h
+.\output\led.o: .\src\lib\core\header\core_map.h
+.\output\led.o: .\src\common\header\com_bit_operation.h
+.\output\led.o: .\src\common\header\com_type_define.h
+.\output\led.o: .\src\lib\base\header\base_gpio.h
+.\output\led.o: .\src\lib\core\header\core_map.h
+.\output\led.o: .\src\peripheral\devboard\header\led.h
+.\output\led.o: .\src\common\header\com_functions.h

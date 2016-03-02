@@ -1,0 +1,9 @@
+.\output\ds18b20_base.o: src\peripheral\ds18b20\source\ds18B20_base.c
+.\output\ds18b20_base.o: .\src\lib\cnf\header\cnf_atime.h
+.\output\ds18b20_base.o: .\src\common\header\com_type_define.h
+.\output\ds18b20_base.o: .\src\lib\base\header\base_gpio.h
+.\output\ds18b20_base.o: .\src\lib\core\header\core_map.h
+.\output\ds18b20_base.o: .\src\lib\base\header\base_rcc.h
+.\output\ds18b20_base.o: .\src\lib\core\header\core_map.h
+.\output\ds18b20_base.o: .\src\common\header\com_bit_operation.h
+.\output\ds18b20_base.o: .\src\common\header\com_functions.h

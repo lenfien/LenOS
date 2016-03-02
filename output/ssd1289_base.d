@@ -1,0 +1,17 @@
+.\output\ssd1289_base.o: src\peripheral\ssd1289\source\ssd1289_base.c
+.\output\ssd1289_base.o: .\src\lib\base\header\base_fsmc.h
+.\output\ssd1289_base.o: .\src\lib\core\header\core_map.h
+.\output\ssd1289_base.o: .\src\common\com.h
+.\output\ssd1289_base.o: .\src\lib\base\header\base_rcc.h
+.\output\ssd1289_base.o: .\src\lib\core\header\core_map.h
+.\output\ssd1289_base.o: .\src\lib\base\header\base_gpio.h
+.\output\ssd1289_base.o: .\src\lib\core\header\core_map.h
+.\output\ssd1289_base.o: .\src\lib\cnf\header\cnf_usart.h
+.\output\ssd1289_base.o: .\src\peripheral\ssd1289\header\ssd1289_base.h
+.\output\ssd1289_base.o: .\src\peripheral\ssd1289\header\ssd1289_type.h
+.\output\ssd1289_base.o: .\src\resouce\font\header\font_operation.h
+.\output\ssd1289_base.o: .\src\resouce\font\header\font_type.h
+.\output\ssd1289_base.o: .\src\peripheral\ssd1289\header\ssd1289_font.h
+.\output\ssd1289_base.o: .\src\peripheral\ssd1289\header\ssd1289_graphic.h
+.\output\ssd1289_base.o: .\src\resouce\bitmap\header\bitmap.h
+.\output\ssd1289_base.o: .\src\resouce\font\header\font_lib.h

@@ -1,0 +1,12 @@
+.\output\24c02.o: src\peripheral\24c02\24c02.c
+.\output\24c02.o: .\src\lib\base\header\base_rcc.h
+.\output\24c02.o: .\src\lib\core\header\core_map.h
+.\output\24c02.o: .\src\common\header\com_bit_operation.h
+.\output\24c02.o: .\src\common\header\com_type_define.h
+.\output\24c02.o: .\src\lib\base\header\base_gpio.h
+.\output\24c02.o: .\src\lib\core\header\core_map.h
+.\output\24c02.o: .\src\lib\base\header\base_i2c.h
+.\output\24c02.o: .\src\lib\core\header\core_map.h
+.\output\24c02.o: .\src\common\header\com_functions.h
+.\output\24c02.o: .\src\lib\cnf\header\cnf_i2c.h
+.\output\24c02.o: .\src\lib\cnf\header\cnf_usart.h

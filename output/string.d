@@ -1,0 +1,10 @@
+.\output\string.o: src\LenOS\data\string.cpp
+.\output\string.o: src\LenOS\data\string.h
+.\output\string.o: .\src\common\com.h
+.\output\string.o: src\LenOS\data\vector.h
+.\output\string.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdio
+.\output\string.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\string.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdlib
+.\output\string.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\string.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdarg
+.\output\string.o: D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h

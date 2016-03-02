@@ -1,0 +1,11 @@
+.\output\process.o: src\LenOS\Process.cpp
+.\output\process.o: .\src\LenOS\data\vector.h
+.\output\process.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdio
+.\output\process.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\process.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdlib
+.\output\process.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\process.o: .\src\common\com.h
+.\output\process.o: src\LenOS\process.h
+.\output\process.o: src\LenOS\system.h
+.\output\process.o: .\src\LenOS\data\string.h
+.\output\process.o: .\src\LenOS\data\queue.h

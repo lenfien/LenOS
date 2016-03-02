@@ -1,0 +1,13 @@
+.\output\color.o: src\LenOS\Color\color.cpp
+.\output\color.o: .\src\LenOS\Screen\screen.h
+.\output\color.o: .\src\common\com.h
+.\output\color.o: .\src\LenOS\color\color.h
+.\output\color.o: .\src\LenOS\ssd1289\ssd1289.h
+.\output\color.o: .\src\lib\base\header\base.h
+.\output\color.o: .\src\LenOS\data\datas.h
+.\output\color.o: .\src\LenOS\data\vector.h
+.\output\color.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdio
+.\output\color.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\color.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdlib
+.\output\color.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\color.o: D:\Keil\ARM\ARMCC\bin\..\include\assert.h

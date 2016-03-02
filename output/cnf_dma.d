@@ -1,0 +1,10 @@
+.\output\cnf_dma.o: src\lib\cnf\source\cnf_dma.c
+.\output\cnf_dma.o: .\src\lib\base\header\base_RCC.h
+.\output\cnf_dma.o: .\src\lib\core\header\core_map.h
+.\output\cnf_dma.o: .\src\common\header\com_bit_operation.h
+.\output\cnf_dma.o: .\src\common\header\com_type_define.h
+.\output\cnf_dma.o: .\src\lib\base\header\base_DMA.h
+.\output\cnf_dma.o: .\src\lib\core\header\core_map.h
+.\output\cnf_dma.o: .\src\lib\base\header\base_adc.h
+.\output\cnf_dma.o: .\src\lib\core\header\core_map.h
+.\output\cnf_dma.o: .\src\lib\core\header\core_NVIC.h

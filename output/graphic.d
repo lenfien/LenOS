@@ -1,0 +1,16 @@
+.\output\graphic.o: src\LenOS\Graphic\Graphic.cpp
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\cmath
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\output\graphic.o: .\src\LenOS\Screen\screen.h
+.\output\graphic.o: .\src\common\com.h
+.\output\graphic.o: .\src\LenOS\color\color.h
+.\output\graphic.o: .\src\LenOS\ssd1289\ssd1289.h
+.\output\graphic.o: .\src\lib\base\header\base.h
+.\output\graphic.o: .\src\LenOS\data\datas.h
+.\output\graphic.o: .\src\LenOS\data\vector.h
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdio
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\cstdlib
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\graphic.o: D:\Keil\ARM\ARMCC\bin\..\include\assert.h
+.\output\graphic.o: src\LenOS\Graphic\graphic.h

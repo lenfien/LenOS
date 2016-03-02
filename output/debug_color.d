@@ -1,0 +1,24 @@
+.\output\debug_color.o: src\debug\debug_color.c
+.\output\debug_color.o: d:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\debug_color.o: .\src\lib\core\header\core_NVIC.h
+.\output\debug_color.o: .\src\common\com.h
+.\output\debug_color.o: .\src\lib\base\header\base_atime.h
+.\output\debug_color.o: .\src\lib\core\header\core_map.h
+.\output\debug_color.o: .\src\lib\base\header\base_atime.h
+.\output\debug_color.o: .\src\lib\cnf\header\cnf_adc.h
+.\output\debug_color.o: .\src\lib\cnf\header\cnf_atime.h
+.\output\debug_color.o: .\src\lib\cnf\header\cnf_dma.h
+.\output\debug_color.o: .\src\peripheral\ssd1289\header\SSD1289_base.h
+.\output\debug_color.o: .\src\peripheral\ssd1289\header\ssd1289_type.h
+.\output\debug_color.o: .\src\resouce\font\header\font_operation.h
+.\output\debug_color.o: .\src\resouce\font\header\font_type.h
+.\output\debug_color.o: .\src\peripheral\ssd1289\header\ssd1289_graphic.h
+.\output\debug_color.o: .\src\peripheral\ssd1289\header\ssd1289_font.h
+.\output\debug_color.o: .\src\peripheral\ssd1289\header\ssd1289_configure.h
+.\output\debug_color.o: .\src\peripheral\ads7483\header\ads7483_base.h
+.\output\debug_color.o: .\src\peripheral\ads7483\header\ads7483_type.h
+.\output\debug_color.o: .\src\project\adconverter\header\adconverter.h
+.\output\debug_color.o: .\src\lenfien\lenfien.h
+.\output\debug_color.o: .\src\project\widget\button\header\button.h
+.\output\debug_color.o: .\src\project\widget\button\header\button_type.h
+.\output\debug_color.o: .\src\project\widget\button\header\button_list.h

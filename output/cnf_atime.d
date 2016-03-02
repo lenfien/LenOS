@@ -1,0 +1,12 @@
+.\output\cnf_atime.o: src\lib\cnf\source\cnf_atime.c
+.\output\cnf_atime.o: .\src\lib\base\header\base_rcc.h
+.\output\cnf_atime.o: .\src\lib\core\header\core_map.h
+.\output\cnf_atime.o: .\src\common\header\com_bit_operation.h
+.\output\cnf_atime.o: .\src\common\header\com_type_define.h
+.\output\cnf_atime.o: .\src\lib\base\header\base_atime.h
+.\output\cnf_atime.o: .\src\lib\core\header\core_map.h
+.\output\cnf_atime.o: .\src\lib\base\header\base_atime.h
+.\output\cnf_atime.o: .\src\lib\base\header\base_gpio.h
+.\output\cnf_atime.o: .\src\lib\core\header\core_map.h
+.\output\cnf_atime.o: .\src\lib\core\header\core_NVIC.h
+.\output\cnf_atime.o: .\src\lib\cnf\header\cnf_atime.h

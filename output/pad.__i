@@ -1,0 +1,5 @@
+--cpp -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork -I.\src\lib\base\header -I.\src\LenOS -I.\src\LenOS\ads7843 -I.\src\LenOS\color -I.\src\LenOS\font -I.\src\LenOS\output -I.\src\LenOS\Screen -I.\src\LenOS\ssd1289 -I.\src\common -I.\src\LenOS\data -I.\src\LenOS\Touchable -I.\src\LenOS\Touch -I.\src\LenOS\data -I.\src\lib\base -I.\src\LenOS\Graphic -I.\src\LenOS\Button -I.\src -I.\src\LenOS\User -I.\src\LenOS\LenCar -I.\src\LenOS\Idientify 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\ST\STM32F10x 
+-o ".\output\pad.o" --omf_browse ".\output\pad.crf" --depend ".\output\pad.d" "src\LenOS\Graphic\pad.cpp"

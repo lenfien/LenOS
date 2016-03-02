@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\output\main.o" ".\output\test.o" ".\output\usermain.o" ".\output\startup_stm32f10x_hd.o" ".\output\isr.o" ".\output\sys.o" ".\output\acom.o" ".\output\com.o" ".\output\base.o" ".\output\cnf.o" ".\output\system.o" ".\output\process.o" ".\output\interrupt.o" ".\output\ads7843.o" ".\output\ssd1289.o" ".\output\touch.o" ".\output\screen.o" ".\output\in.o" ".\output\out.o" ".\output\string.o" ".\output\font.o" ".\output\fontlib.o" ".\output\paintable.o" ".\output\touchable.o" ".\output\graphic.o" ".\output\color.o" ".\output\widget.o" ".\output\touchwidget.o" ".\output\messagebox.o" ".\output\button.o" ".\output\controlpad.o" ".\output\text.o" ".\output\textbox.o" ".\output\slider.o" ".\output\pad.o" ".\output\touchpad.o" ".\output\window.o" ".\output\lencar.o" ".\output\funcgen.o" ".\output\handdata.o" ".\output\hand.o" 
+--strict --scatter ".\output\stm32f103.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\stm32f103.map" -o .\output\stm32f103.axf
